@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Info</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Info</h1>
+        <input type="text" id="movie-search-box" placeholder="Enter movie title">
+        <div class="buttons">
+          <a href="favorites.html">Favorites</a>   
+        </div>
+        <div id="search-list" class="hide-search-list"></div>
+        <div class="overlay hidden">
+          <div id="result-grid"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
